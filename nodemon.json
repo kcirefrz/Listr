@@ -1,0 +1,7 @@
+{
+    "watch": ["views"],
+    "ext": "html",
+    "execMap": {
+        "html": "node src/index.html"
+    }
+}

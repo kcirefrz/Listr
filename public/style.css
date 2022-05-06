@@ -1,0 +1,49 @@
+header{
+    padding: 10px 0 10px 0;
+    background: #31C2C7;
+    margin-bottom: 20px;
+}
+
+header div h1{
+    color: white;
+    font-style: italic;
+}
+
+header div h4{
+    margin-left: 20px;
+}
+
+body{
+    background-color: #EEE5E5 !important;
+}
+
+.tasks{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 720px !important;
+}
+
+.tasks p{
+    margin-left: 50px;
+}
+
+.tasks form{
+    display: flex !important;
+}
+
+.tasks form input:nth-child(1){
+    margin-right: 10px;
+    width: 200px;
+}
+
+@media screen and (max-width: 575px){
+    .tasks{
+        width: 440px !important;
+    }
+}
+
+/*  #37392E
+    #19647E
+    #DDCECD
+*/
